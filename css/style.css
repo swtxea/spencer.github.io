@@ -259,8 +259,13 @@ a:active {
   .secondary-content {
     width: 90%;
   }
-  
+
 }
+
+@media (max-width: @iphone-screen) {
+        background-attachment: scroll;
+        background-size: auto 100%
+    }
 
 @media (max-width: 768px) {
 
