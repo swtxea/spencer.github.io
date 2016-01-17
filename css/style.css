@@ -94,7 +94,6 @@ a:active {
               #ffa949 url('../img/sart.png') no-repeat center;
   min-height: 50%;
   background-size: cover;
-  background-attachment: scroll, scroll, fixed;
 }
 
 .nav-section {
