@@ -1,0 +1,359 @@
+/* Web Fonts -------------------- */
+
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.eot');
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
+/* Base Styles -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+}
+
+h1 {  
+  font-size: 3rem; /* 90px/16px  */
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3; 
+  text-shadow: 0 1px 1px rgba(0,0,0,.8);
+  margin: 12px 0 0;
+}
+
+h2 {
+  font-size: 2em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; /* 0 0 26px */
+}
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+ul,
+ol {
+  margin: 30px 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: rgb(255, 169, 73);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 169, 73);
+}
+
+a:hover {
+  color: rgba(255, 169, 73, .4);
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* Main Styles --------------------- */
+
+.main-header {
+  padding-top: 170px;
+  height: 100vh;
+  background: linear-gradient(#ffa949, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #ffa949 url('../img/sart.png') no-repeat center;
+  background-size: cover;
+  background-attachment: scroll, scroll, fixed;
+}
+
+.nav-section {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #333, transparent);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 52px;
+    
+}
+
+.nav-section li {
+    float: left;
+}
+
+.nav-section a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-section a:hover {
+    background-color: #111;
+}
+.title {
+  color: white;
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;  
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.primary-content {
+  padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+
+.secondary-content img {
+  max-height: 50vh;
+
+}
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid #ffa949;
+}
+
+.t-border {
+  border-top: 2px solid #dfe2e6;
+}
+
+.b-border {
+  border-bottom: 2px solid #dfe2e6;
+}
+
+/* Layout Styles ------------------ */
+
+.primary-content, 
+.secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+.arrow {
+  width: 50px;
+  margin-top: 150px;
+}
+.imac {
+  background: url('../img/imac.png') no-repeat top;
+  background-size: contain;
+  width: 250px;
+  height: 302.5px; /* 1:1.21 ratio between width and height*/
+  padding: 6px 1px 0px 0px;
+}
+
+.quote {
+  padding-top: 20px;
+  margin: auto;
+  width: 240px;
+  height: 137.5px;
+  padding-top: ;
+  text-align: center;
+  background: #111 url('../img/basic.gif') no-repeat top;
+  background-size: cover;
+  text-align: center;
+  margin-top: 0;
+  border-radius: 10px;
+}
+
+.quote:hover {
+  background: linear-gradient(#111, transparent 90%),
+              linear-gradient(0deg, #111, transparent 90%),
+              #ffa949 url('../img/basic.gif') no-repeat top;
+  background-size: cover;
+}
+
+.quote h1 {
+  font-size: .85em;
+}
+/* Floated Columns ------------------ */
+
+.block-a,
+.block-b {
+  width: 46.5%;
+}
+
+.block-a {
+  float: left;
+}
+
+.block-b {
+  float: right;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries -------------------- */
+
+@media (max-width: 1024px) {
+  .primary-content,
+  .secondary-content {
+    width: 90%;
+  }
+  
+}
+
+@media (max-width: 768px) {
+
+  .nav li {
+  
+  }
+  .primary-content,
+  .secondary-content {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+
+  .main-header {
+    max-height: 100vh;
+    padding: 50px 25px 0;
+  }
+  .title {
+    font-size: 1.5rem;
+    border: none;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .arrow {
+    width: 50px;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  .block-a,
+  .block-b {
+    float: none;
+    width: 100%;
+  }
+  .b
+  .main-footer {
+    padding: 20px 0;
+  }
+}
+
+/* Functions */
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+.center-b {
+  margin: auto;
+  text-align: center;
+}
+.radial-b {
+  border-radius: 1px;
+}
+
+.white-t  p,
+.white-t h1,
+.white-t h2,
+.white-t h3{
+  color: white;
+}
+
+.white-t a:hover,
+.white-t a:link {
+  color: white;
+}
+.under {
+  color: white;
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+
+.no-upper {
+  text-transform: none;
+}
+/* This is a class that prevents text from becoming transparent with its container */
+
+
+
+
+
+
+
+
+
+
+
