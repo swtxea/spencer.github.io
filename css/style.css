@@ -312,10 +312,15 @@ a:active {
 
 /* Functions */
 .thumb {
-  width: 50px;
+  width: 30px;
   vertical-align: middle;
+}
+
+.space {
   margin-left: 10px;
 }
+/*makes a space between buttons or images*/
+
 .center {
     margin: auto;
     width: 60%;
