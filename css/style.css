@@ -154,6 +154,7 @@ a:active {
 }
 
 .secondary-content {
+  padding-top: 80px;
   padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
 }
