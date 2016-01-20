@@ -145,6 +145,19 @@ a:active {
   padding-bottom: 10px;
 }
 
+.filter {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  height: 60px;
+  padding: 14px 16px !important;
+
+}
+
+.filter li {
+  float: left;
+
+}
 .intro {
   font-size: 1.25em; /* 20px/16px */
   line-height: 1.6;  
@@ -262,13 +275,21 @@ a:active {
 }
 
 .badge {
-
     display: block !important;
     color: grey;
     background: none;
     padding: 0px !important;
     font-size: 15px;
   }
+
+.dev::after {
+  display: block !important;
+  color: grey;
+  background: none;
+  padding: 0px !important;
+  font-size: 15px;
+  content: "Development";
+}
 
 /* Floated Columns ------------------ */
 
@@ -359,6 +380,7 @@ a:active {
 }
 
 /* Functions */
+
 .right {
   float: right;
 }
@@ -392,6 +414,11 @@ a:active {
   width: 50%;
 }
 
+.nav:not(first-child) {
+  margin-left: 10px;
+
+}
+
 .white-t  p,
 .white-t h1,
 .white-t h2,
@@ -416,10 +443,108 @@ a:active {
   text-transform: none;
 }
 /* This is a class that prevents text from becoming transparent with its container */
+/* Psudo Classes */
+.dev::before {
+  background-image: url('../img/dev.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 33px;
+  content: "";
+}
 
+.stand-up::before{
+  background-image: url('../img/stand-up.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 33px;
+  content: "";
+}
 
+.rock-climbing::before {
+  background-image: url('../img/rock-climbing.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 33px;
+  content: "";
+}
 
+.tutoring::before {
+  background-image: url('../img/tutoring.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 33px;
+  content: "";
+}
 
+.travel::before {
+  background-image: url('../img/travel.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 33px;
+  content: "";
+}
+
+.other::before {
+  background-image: url('../img/other.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 33px;
+  content: "";
+}
+
+.dev::after {
+  display: block !important;
+  color: grey;
+  background: none;
+  padding: 0px !important;
+  font-size: 15px;
+  content: "Development";
+}
+
+.stand-up::after {
+  display: block !important;
+  color: grey;
+  background: none;
+  padding: 0px !important;
+  font-size: 15px;
+  content: "Stand-up";
+}
+
+.rock-climbing::after {
+  display: block !important;
+  color: grey;
+  background: none;
+  padding: 0px !important;
+  font-size: 15px;
+  content: "Rock Climbing";
+}
+
+.tutoring::after {
+  display: block !important;
+  color: grey;
+  background: none;
+  padding: 0px !important;
+  font-size: 15px;
+  content: "Tutoring";
+}
+
+.travel::after {
+  display: block !important;
+  color: grey;
+  background: none;
+  padding: 0px !important;
+  font-size: 15px;
+  content: "Travel";
+}
+
+.other::after {
+  display: block !important;
+  color: grey;
+  background: none;
+  padding: 0px !important;
+  font-size: 15px;
+  content: "Other";
+}
 
 
 
