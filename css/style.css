@@ -50,6 +50,10 @@ h3 {
   margin-bottom: 1.7em; /* 34px */
 }
 
+h4 {
+  margin: 20px 0px;
+}
+
 img {
   max-width: 100%;
   border-radius: 10px;
@@ -150,11 +154,15 @@ a:active {
 
 .primary-content {
   padding-top: 25px;
-  padding-bottom: 95px;
+  padding-bottom: 40px;
+}
+
+.resume  h3 {
+  margin-bottom: 0px;
 }
 
 .secondary-content {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
 }
@@ -170,6 +178,7 @@ a:active {
   margin-top: 20px;
   display: inline-block;
 }
+
 
 .main-footer {
   padding-top: 60px;
@@ -208,7 +217,7 @@ a:active {
   padding: 6px 1px 0px 0px;
 }
 
-.quote {
+.quote-b {
   padding-top: 20px;
   margin: auto;
   width: 240px;
@@ -222,14 +231,31 @@ a:active {
   border-radius: 10px;
 }
 
-.quote:hover {
+.quote-a {
+  padding-top: 20px;
+  margin: auto;
+  width: 240px;
+  height: 137.5px;
+  padding-top: ;
+  text-align: center;
+  background-color: #111;
+  background-size: cover;
+  text-align: center;
+  margin-top: 0;
+  border-radius: 10px;
+}
+
+.resume {
+  width: 60%;
+}
+.quote-b:hover {
   background: linear-gradient(#111, transparent 90%),
               linear-gradient(0deg, #111, transparent 90%),
               #ffa949 url('../img/basic.gif') no-repeat top;
   background-size: cover;
 }
 
-.quote h1 {
+.quote-a h1 {
   font-size: .85em;
 }
 /* Floated Columns ------------------ */
