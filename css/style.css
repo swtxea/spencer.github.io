@@ -261,7 +261,7 @@ a:active {
   font-size: .85em;
 }
 
-.time-there {
+.badge {
 
     display: block !important;
     color: grey;
@@ -304,7 +304,7 @@ a:active {
 }
 
 @media (min-width: 1144px) {
-  .time-there {
+  .badge {
   padding: 5px !important;
   display: inline !important;
   background-color: red;
