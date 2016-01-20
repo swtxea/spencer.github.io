@@ -359,6 +359,9 @@ a:active {
 }
 
 /* Functions */
+.right {
+  float: right;
+}
 .thumb {
   width: 30px;
   vertical-align: middle;
