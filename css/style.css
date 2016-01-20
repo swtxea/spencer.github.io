@@ -20,6 +20,9 @@ body {
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+p {
+  clear: both;
+}
 h1,
 h2,
 h3 {
@@ -44,6 +47,7 @@ h2 {
 }
 
 h3 {
+  display: block;
   font-size: 1.25em; /* 20px/16px  */
   color: #48525c;
   line-height: 1.2;
@@ -245,9 +249,7 @@ a:active {
   border-radius: 10px;
 }
 
-.resume {
-  width: 60%;
-}
+
 .quote-b:hover {
   background: linear-gradient(#111, transparent 90%),
               linear-gradient(0deg, #111, transparent 90%),
@@ -258,6 +260,16 @@ a:active {
 .quote-a h1 {
   font-size: .85em;
 }
+
+.time-there {
+
+    display: block !important;
+    color: grey;
+    background: none;
+    padding: 0px !important;
+    font-size: 15px;
+  }
+
 /* Floated Columns ------------------ */
 
 .block-a,
@@ -291,9 +303,19 @@ a:active {
 
 }
 
+@media (min-width: 1144px) {
+  .time-there {
+  padding: 5px !important;
+  display: inline !important;
+  background-color: red;
+  border-radius: 4px; 
+  float: right;
+  color: white;
+  font-size: 15px;
+  }
+}
 
 @media (max-width: 768px) {
-
   .nav li {
   
   }
