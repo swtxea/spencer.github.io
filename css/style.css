@@ -209,13 +209,7 @@ a:active {
   border-bottom: 10px solid #ffa949;
 }
 
-.t-border {
-  border-top: 2px solid #dfe2e6;
-}
 
-.b-border {
-  border-bottom: 2px solid #dfe2e6;
-}
 
 .primary-content, 
 .secondary-content {
@@ -391,6 +385,13 @@ a:active {
   margin-left: 10px;
 }
 /*makes a space between buttons or images*/
+.t-border {
+  border-top: 2px solid #dfe2e6;
+}
+
+.b-border {
+  border-bottom: 2px solid #dfe2e6;
+}
 
 .center {
     margin: auto;
