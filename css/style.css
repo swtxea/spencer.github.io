@@ -386,6 +386,10 @@ a:active {
 .space {
   margin-left: 10px;
 }
+
+.space-t {
+  margin-top: 100px;
+}
 /*makes a space between buttons or images*/
 .t-border {
   border-top: 2px solid #dfe2e6;
@@ -411,7 +415,11 @@ a:active {
   text-align: center;
 }
 .radial-b {
-  border-radius: 1px;
+  box-shadow: 1px 1px 2px #888888;
+  border-radius: 100%;
+}
+.logo {
+  height: 100px;
 }
 
 .circle {
