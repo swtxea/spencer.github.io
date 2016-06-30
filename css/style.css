@@ -551,7 +551,9 @@ a:active {
   content: "Other";
 }
 
-
+.clear {
+  clear: all;
+}
 
 
 
