@@ -551,8 +551,8 @@ a:active {
   content: "Other";
 }
 
-.clear {
-  clear: all;
+.left-text {
+  text-align: left;
 }
 
 
